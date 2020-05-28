@@ -12,7 +12,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.4.RELEASE</version>
     </parent>
-    <name>petclinic</name>
+    <name>Petclinic DP2 G3-14 base Project</name>
 
     <properties>
 
@@ -33,6 +33,12 @@
 		<cucumber.version>5.5.0</cucumber.version>
 		
 		<rest-assured.version>4.2.0</rest-assured.version>
+
+        <sonar.projectKey>reyblacua_DP2-G3-14</sonar.projectKey>
+        <sonar.organization>reyblacua</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    
+
     </properties>
 
     <dependencies>
